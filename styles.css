@@ -1,0 +1,157 @@
+body{
+background-color: #f3ebeb;
+color: #0f141e;
+font-size:20px;
+font-weight: bold;
+font-family:'Courier New', Courier, monospace'
+
+}
+    a{
+color:rgb(116, 22, 119);
+text-decoration:none;        
+}
+    a:hover{
+        text-decoration:underline;
+    }
+    a:active {
+        color:rgb(21, 78, 21);
+    }
+    a:visited{
+        color:rgb(32, 17, 167);
+    }
+
+.avatar {
+width: 200px;
+border-radius: 28px;
+box-shadow: 4px 4px 29px rgb(32, 74, 187);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+@media (max-width: 700px) {
+.info{
+    text-align: center;
+    display: block;
+}
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h1{
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: black;
+    margin:0;
+    font-style: italic;
+}
+/*.social{
+    background: rgb(25, 156, 31);
+    padding:15px;
+        border:5px solid red;
+        margin:5px;
+}*/
+.container{
+        max-width: 75%;
+        margin:auto;
+        padding-top: 30px;
+        
+}
+
+.bg-yellow {
+    background: #f0de86;
+}
+
+.bg-green {
+    background:#aae6b9;
+}
+
+.bg-red {
+    background:#d8acac;
+}
+
+.card{
+    padding:15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table{
+    padding-bottom:10px;
+}
+
+.table td:nth-child(2), 
+td:nth-child(3)   {
+color: red;
+}
+
+.link-list {
+    list-style:none;
+    padding: 0;
+}
+
+.link-list li {
+margin-bottom: 10px;
+padding-bottom: 5px;
+border-bottom: 1px solid #ccc;
+}
+
+.contact h2{
+text-align:center;
+}
+
+.form-group label{
+display: block;
+font-size: 40px;
+color: #040b18;
+}
+.form-group input,
+.form-group textarea {
+    width:100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline:none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.btn:hover {
+opacity: 0.7;
+}
